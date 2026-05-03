@@ -8,6 +8,7 @@ jawab: Fungsi map() digunakan untuk mengubah rentang nilai dari satu skala ke sk
 
 3. Modifikasi program berikut agar servo hanya bergerak dalam rentang 30° hingga 150°, meskipun potensiometer tetap memiliki rentang ADC 0–1023. <br>
 jawab: <br>
+
 ```cpp
 #include <Servo.h> // library untuk servo motor
 
@@ -52,4 +53,3 @@ void loop() {
   delay(15);
 }
 ```
----
